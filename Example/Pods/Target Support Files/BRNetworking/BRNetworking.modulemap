@@ -1,0 +1,6 @@
+framework module BRNetworking {
+  umbrella header "BRNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

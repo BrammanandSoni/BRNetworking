@@ -1,4 +1,5 @@
 use_frameworks!
+pod 'Alamofire', '~> 4.4'
 
 target 'BRNetworking_Example' do
   pod 'BRNetworking', :path => '../'
