@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3524827E8BF2E3BFE657BCC4021A4FBE /* Pods-BRNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF293D9E0706A336C3F806A61791169A /* Pods-BRNetworking_Example-dummy.m */; };
+		397A948C72A36F64AA7D9F22A09E6BDB /* Pods-BRNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F57D7E48E15E0C9EE81C27931CC3B49 /* Pods-BRNetworking_Tests-dummy.m */; };
+		4F1DBC2D6F51935E95E9E02339FC0068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5C72F31C5BD77BA24814CC035F7CD21F /* Pods-BRNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E658BABBC10B03266C16B37521F54F26 /* Pods-BRNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D25F29A6306263744AC0FA40090A240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		62FF2F136CB379E738A879EAB2A4B256 /* Pods-BRNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E68665E6F0E04A742C4AC8856F2289A3 /* Pods-BRNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C39669C9B7FF4CC5C056D2E37F71A6D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547B0B21631DE01F12D2D72818CDFB72 /* ReplaceMe.swift */; };
+		B444C69C5661A7CA9DDD6857A607A719 /* BRNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A14BBCDF75A243F0BAC7EF101D22947E /* BRNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7A0F7299E7997947D2764E08C545AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BB27308F664B81D87CDC79F26B8EE734 /* BRNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D84C4B8FD59962E87FA93D554515D /* BRNetworking-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F076625CDE9992DE20401BC74A32F1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBED8309C2D1712650F1506F2156AFA;
+			remoteInfo = BRNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		136FDDBE1A1826BDCD5BE7B53760A987 /* Pods-BRNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BRNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		172A144415BCFCC9C8F4EF44183E5148 /* Pods-BRNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BRNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F9B0267B7B530A6E17B7CB37B01A601 /* BRNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRNetworking-prefix.pch"; sourceTree = "<group>"; };
+		24BD90209082B8F5D2D22429B2E39734 /* BRNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRNetworking.xcconfig; sourceTree = "<group>"; };
+		3CAF961F5F3B790D86CAE625EC9471AF /* Pods-BRNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		494D84C4B8FD59962E87FA93D554515D /* BRNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRNetworking-dummy.m"; sourceTree = "<group>"; };
+		4D0231F21511E10D10EC73D43A33E814 /* BRNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BRNetworking.framework; path = BRNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		510DBE459002A715DF9C8CCBC253C89D /* Pods-BRNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BRNetworking_Tests.modulemap"; sourceTree = "<group>"; };
+		547B0B21631DE01F12D2D72818CDFB72 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		54CFEFAAE9FC166D5B1DD51F2A37CF40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B75B59C553B99B401E9B66D2AFB5424 /* Pods-BRNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B6A3FAC33166A67EDC08149DA10651C /* Pods-BRNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		779651936E7E2F6215D92FC6266E97BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F57D7E48E15E0C9EE81C27931CC3B49 /* Pods-BRNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BRNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
+		8256E5502AE4A18F1DABDC1544E918C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877FDDBAC23D7A3D17B84D30F9E56200 /* Pods-BRNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BRNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D622740204325B3EBB1D38B5FA1E777 /* Pods-BRNetworking_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BRNetworking_Example-resources.sh"; sourceTree = "<group>"; };
+		908EA43AA883BEEAB2FEDA8D0ACF6DBE /* Pods_BRNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BRNetworking_Tests.framework; path = "Pods-BRNetworking_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A14BBCDF75A243F0BAC7EF101D22947E /* BRNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRNetworking-umbrella.h"; sourceTree = "<group>"; };
+		A41AB86AA127F36CC0275D0AFEC26E22 /* Pods-BRNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BRNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6CE532969C11E2B23225E3BB071635C /* Pods_BRNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BRNetworking_Example.framework; path = "Pods-BRNetworking_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31F7BA243A0B9CA12D973F7611F2C14 /* Pods-BRNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BRNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B7023E4925C41B5211E975239AC5E419 /* Pods-BRNetworking_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BRNetworking_Tests-resources.sh"; sourceTree = "<group>"; };
+		B8DBF0576497FEC23801AF109272D39F /* Pods-BRNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BRNetworking_Example.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA44B5AB42ABDE349990F5F57C2B3FA1 /* Pods-BRNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BRNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E658BABBC10B03266C16B37521F54F26 /* Pods-BRNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BRNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
+		E68665E6F0E04A742C4AC8856F2289A3 /* Pods-BRNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BRNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EE1B0FF5B950BCB43B3F59252D21DDBD /* BRNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BRNetworking.modulemap; sourceTree = "<group>"; };
+		F9DB4635A4FC24F5380CA1030E46C7DF /* Pods-BRNetworking_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BRNetworking_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FF293D9E0706A336C3F806A61791169A /* Pods-BRNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BRNetworking_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B76A64F4ED74DFA9D6A33D90E8C4403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1DBC2D6F51935E95E9E02339FC0068 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E3B54C2067B9F6703C8F58CEB9CD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A0F7299E7997947D2764E08C545AD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5328FED0D6B02D3087BCDEBEE30FA57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D25F29A6306263744AC0FA40090A240 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B8E1DF8B00500330C55640F42AAC7C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B18D7B3DFE9F6C20A3A828BBDDA6F03 /* BRNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		32F62BF9422DB44025A66E53D3065D64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE1B0FF5B950BCB43B3F59252D21DDBD /* BRNetworking.modulemap */,
+				24BD90209082B8F5D2D22429B2E39734 /* BRNetworking.xcconfig */,
+				494D84C4B8FD59962E87FA93D554515D /* BRNetworking-dummy.m */,
+				1F9B0267B7B530A6E17B7CB37B01A601 /* BRNetworking-prefix.pch */,
+				A14BBCDF75A243F0BAC7EF101D22947E /* BRNetworking-umbrella.h */,
+				8256E5502AE4A18F1DABDC1544E918C1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BRNetworking";
+			sourceTree = "<group>";
+		};
+		3B18D7B3DFE9F6C20A3A828BBDDA6F03 /* BRNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				634812682429B832FB6AE84CEE4755AF /* BRNetworking */,
+				32F62BF9422DB44025A66E53D3065D64 /* Support Files */,
+			);
+			name = BRNetworking;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		634812682429B832FB6AE84CEE4755AF /* BRNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				844C999BA06DF18C6A5738CDBFF075C0 /* Classes */,
+			);
+			name = BRNetworking;
+			path = BRNetworking;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B8E1DF8B00500330C55640F42AAC7C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8F5F24FB80821F422876AFEAAB6FE51B /* Products */,
+				D055F3988D4BE5D88AFBF28305AA6397 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		844C999BA06DF18C6A5738CDBFF075C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				547B0B21631DE01F12D2D72818CDFB72 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8F5F24FB80821F422876AFEAAB6FE51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D0231F21511E10D10EC73D43A33E814 /* BRNetworking.framework */,
+				A6CE532969C11E2B23225E3BB071635C /* Pods_BRNetworking_Example.framework */,
+				908EA43AA883BEEAB2FEDA8D0ACF6DBE /* Pods_BRNetworking_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26BE042B8419F48A23ECDA2BB621F32 /* Pods-BRNetworking_Example */ = {
+			isa = PBXGroup;
+			children = (
+				54CFEFAAE9FC166D5B1DD51F2A37CF40 /* Info.plist */,
+				B8DBF0576497FEC23801AF109272D39F /* Pods-BRNetworking_Example.modulemap */,
+				A41AB86AA127F36CC0275D0AFEC26E22 /* Pods-BRNetworking_Example-acknowledgements.markdown */,
+				172A144415BCFCC9C8F4EF44183E5148 /* Pods-BRNetworking_Example-acknowledgements.plist */,
+				FF293D9E0706A336C3F806A61791169A /* Pods-BRNetworking_Example-dummy.m */,
+				B31F7BA243A0B9CA12D973F7611F2C14 /* Pods-BRNetworking_Example-frameworks.sh */,
+				8D622740204325B3EBB1D38B5FA1E777 /* Pods-BRNetworking_Example-resources.sh */,
+				E658BABBC10B03266C16B37521F54F26 /* Pods-BRNetworking_Example-umbrella.h */,
+				3CAF961F5F3B790D86CAE625EC9471AF /* Pods-BRNetworking_Example.debug.xcconfig */,
+				DA44B5AB42ABDE349990F5F57C2B3FA1 /* Pods-BRNetworking_Example.release.xcconfig */,
+			);
+			name = "Pods-BRNetworking_Example";
+			path = "Target Support Files/Pods-BRNetworking_Example";
+			sourceTree = "<group>";
+		};
+		B4FC9096ABE4F0E4B9AB91CF820A5DB5 /* Pods-BRNetworking_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				779651936E7E2F6215D92FC6266E97BB /* Info.plist */,
+				510DBE459002A715DF9C8CCBC253C89D /* Pods-BRNetworking_Tests.modulemap */,
+				136FDDBE1A1826BDCD5BE7B53760A987 /* Pods-BRNetworking_Tests-acknowledgements.markdown */,
+				877FDDBAC23D7A3D17B84D30F9E56200 /* Pods-BRNetworking_Tests-acknowledgements.plist */,
+				7F57D7E48E15E0C9EE81C27931CC3B49 /* Pods-BRNetworking_Tests-dummy.m */,
+				F9DB4635A4FC24F5380CA1030E46C7DF /* Pods-BRNetworking_Tests-frameworks.sh */,
+				B7023E4925C41B5211E975239AC5E419 /* Pods-BRNetworking_Tests-resources.sh */,
+				E68665E6F0E04A742C4AC8856F2289A3 /* Pods-BRNetworking_Tests-umbrella.h */,
+				5B75B59C553B99B401E9B66D2AFB5424 /* Pods-BRNetworking_Tests.debug.xcconfig */,
+				6B6A3FAC33166A67EDC08149DA10651C /* Pods-BRNetworking_Tests.release.xcconfig */,
+			);
+			name = "Pods-BRNetworking_Tests";
+			path = "Target Support Files/Pods-BRNetworking_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D055F3988D4BE5D88AFBF28305AA6397 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26BE042B8419F48A23ECDA2BB621F32 /* Pods-BRNetworking_Example */,
+				B4FC9096ABE4F0E4B9AB91CF820A5DB5 /* Pods-BRNetworking_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54FA3A6F3331CAD98A22616AD94DBC9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C72F31C5BD77BA24814CC035F7CD21F /* Pods-BRNetworking_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E897B523B5F651E949A9F7FAE633B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B444C69C5661A7CA9DDD6857A607A719 /* BRNetworking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA7832113C78E8B0CE1151022B18AA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62FF2F136CB379E738A879EAB2A4B256 /* Pods-BRNetworking_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		093F15B4104FC505D9B7D8A8332D530A /* Pods-BRNetworking_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944951DDE698A0FF15C3AE5159AE2B54 /* Build configuration list for PBXNativeTarget "Pods-BRNetworking_Example" */;
+			buildPhases = (
+				D2D43A2208BD1580EA5CEC4CB567F15E /* Sources */,
+				B6E3B54C2067B9F6703C8F58CEB9CD28 /* Frameworks */,
+				54FA3A6F3331CAD98A22616AD94DBC9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8531A1D206C277AEC2AED027514BEFF /* PBXTargetDependency */,
+			);
+			name = "Pods-BRNetworking_Example";
+			productName = "Pods-BRNetworking_Example";
+			productReference = A6CE532969C11E2B23225E3BB071635C /* Pods_BRNetworking_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5ACD4244113A3358A3645BD092EF2D9E /* Pods-BRNetworking_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD62ECAC12376CFC1F25149F4F76EF4 /* Build configuration list for PBXNativeTarget "Pods-BRNetworking_Tests" */;
+			buildPhases = (
+				40C388FCDCD76317EA02E4F584EFBE3D /* Sources */,
+				D5328FED0D6B02D3087BCDEBEE30FA57 /* Frameworks */,
+				BCA7832113C78E8B0CE1151022B18AA7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BRNetworking_Tests";
+			productName = "Pods-BRNetworking_Tests";
+			productReference = 908EA43AA883BEEAB2FEDA8D0ACF6DBE /* Pods_BRNetworking_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EBED8309C2D1712650F1506F2156AFA /* BRNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5055A90D0C433B7D7DA80926615357BF /* Build configuration list for PBXNativeTarget "BRNetworking" */;
+			buildPhases = (
+				BE4E4A132CE43388874AADC5F96B9A56 /* Sources */,
+				7B76A64F4ED74DFA9D6A33D90E8C4403 /* Frameworks */,
+				58E897B523B5F651E949A9F7FAE633B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRNetworking;
+			productName = BRNetworking;
+			productReference = 4D0231F21511E10D10EC73D43A33E814 /* BRNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8F5F24FB80821F422876AFEAAB6FE51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EBED8309C2D1712650F1506F2156AFA /* BRNetworking */,
+				093F15B4104FC505D9B7D8A8332D530A /* Pods-BRNetworking_Example */,
+				5ACD4244113A3358A3645BD092EF2D9E /* Pods-BRNetworking_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C388FCDCD76317EA02E4F584EFBE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397A948C72A36F64AA7D9F22A09E6BDB /* Pods-BRNetworking_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4E4A132CE43388874AADC5F96B9A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB27308F664B81D87CDC79F26B8EE734 /* BRNetworking-dummy.m in Sources */,
+				7C39669C9B7FF4CC5C056D2E37F71A6D /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D43A2208BD1580EA5CEC4CB567F15E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3524827E8BF2E3BFE657BCC4021A4FBE /* Pods-BRNetworking_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8531A1D206C277AEC2AED027514BEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRNetworking;
+			target = 8EBED8309C2D1712650F1506F2156AFA /* BRNetworking */;
+			targetProxy = F076625CDE9992DE20401BC74A32F1CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A8839C4FAD8C950D06054DED5726802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA44B5AB42ABDE349990F5F57C2B3FA1 /* Pods-BRNetworking_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BRNetworking_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BRNetworking_Example/Pods-BRNetworking_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BRNetworking_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79307B1DE407D9230EB7B8C296EC318E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6A3FAC33166A67EDC08149DA10651C /* Pods-BRNetworking_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BRNetworking_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BRNetworking_Tests/Pods-BRNetworking_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BRNetworking_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A8B68D51AE2449DDF9EA418A966E09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BD90209082B8F5D2D22429B2E39734 /* BRNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BRNetworking/BRNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRNetworking/BRNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BRNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E59625C7B1C0875C870158D737F54BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B75B59C553B99B401E9B66D2AFB5424 /* Pods-BRNetworking_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BRNetworking_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BRNetworking_Tests/Pods-BRNetworking_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BRNetworking_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE2785E3A17A60ABA8446340F382FC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BD90209082B8F5D2D22429B2E39734 /* BRNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BRNetworking/BRNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRNetworking/BRNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BRNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F95C62C33F4014EF834DFBC3082C4D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAF961F5F3B790D86CAE625EC9471AF /* Pods-BRNetworking_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BRNetworking_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BRNetworking_Example/Pods-BRNetworking_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BRNetworking_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD62ECAC12376CFC1F25149F4F76EF4 /* Build configuration list for PBXNativeTarget "Pods-BRNetworking_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59625C7B1C0875C870158D737F54BA5 /* Debug */,
+				79307B1DE407D9230EB7B8C296EC318E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5055A90D0C433B7D7DA80926615357BF /* Build configuration list for PBXNativeTarget "BRNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8B68D51AE2449DDF9EA418A966E09A /* Debug */,
+				EE2785E3A17A60ABA8446340F382FC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944951DDE698A0FF15C3AE5159AE2B54 /* Build configuration list for PBXNativeTarget "Pods-BRNetworking_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95C62C33F4014EF834DFBC3082C4D05 /* Debug */,
+				5A8839C4FAD8C950D06054DED5726802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

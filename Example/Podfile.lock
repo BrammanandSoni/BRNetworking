@@ -1,0 +1,16 @@
+PODS:
+  - BRNetworking (0.1.0)
+
+DEPENDENCIES:
+  - BRNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  BRNetworking:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BRNetworking: f60aa4691195569dd17add75f7db5459b7bbe76a
+
+PODFILE CHECKSUM: b8746b275a7748ce4574c5d502f1342fd8a9a1bf
+
+COCOAPODS: 1.2.0
