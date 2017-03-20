@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BRNetworking_Example' do
+  pod 'BRNetworking', :path => '../'
+
+  target 'BRNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
